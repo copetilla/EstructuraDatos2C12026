@@ -127,12 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arbolb.cpp" />
     <ClCompile Include="ArbolBinario.cpp" />
     <ClCompile Include="avl.cpp" />
+    <ClCompile Include="BST.h" />
+    <ClCompile Include="BTS.cpp" />
     <ClCompile Include="Estructura.cpp" />
+    <ClCompile Include="LAboratorio2.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="arbolb.h" />
     <ClInclude Include="ArbolBinario.h" />
     <ClInclude Include="Nodo.h" />
   </ItemGroup>

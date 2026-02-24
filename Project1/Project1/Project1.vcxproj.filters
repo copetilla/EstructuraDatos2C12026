@@ -27,12 +27,27 @@
     <ClCompile Include="avl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LAboratorio2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BST.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arbolb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BTS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nodo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ArbolBinario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arbolb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
