@@ -53,3 +53,16 @@ void ArbolNodoPlus::dividirRaiz() {
 	raiz = nuevaRaiz; // La nueva raíz se convierte en la raíz del árbol
 	// Implementar la lógica para dividir la raíz cuando se alcance el número máximo de claves
 }
+
+
+//El  insertar va a crear el nodo actual (raiz)
+//
+//
+//verifica nodo es un hoja
+//va insertar la clave en el nodo hoja
+//
+//funcion de sort
+//
+//
+//if el tamano ==ORDEN
+//dividir
