@@ -5,11 +5,8 @@
 //Cada hoja contiene las referencias a los archivos reales.
 
 
-#ifdef NODOPLUS_H
+#ifndef NODOPLUS_H
 #define NODOPLUS_H
-
-
-
 
 #include <iostream>
 #include <vector>

@@ -20,3 +20,36 @@
 #include "ArbolNodoplus.h"
 #include <iostream>
 #include <algorithm>
+
+using namespace std;
+
+Nodoplus::Nodoplus(bool hoja) {
+	esHoja = hoja;
+	siguiente = nullptr;
+}
+
+ArbolNodoPlus::ArbolNodoPlus(){
+	raiz = new Nodoplus(true); // Inicializamos la raíz como una hoja
+}
+
+
+void ArbolNodoPlus::dividirRaiz() {
+
+	//3 raices
+	Nodoplus* nuevaRaiz = new Nodoplus(false); // Nueva raíz que no es hoja
+	Nodoplus* hojaIzquierda = new Nodoplus(true); // Nueva hoja izquierda
+	Nodoplus* hojaDerecha = new Nodoplus(true); // Nueva hoja izquierda
+
+	hojaIzquierda->claves.push_back(raiz->claves[0]); // Primera clave de la raíz original a la hoja izquierda
+	hojaDerecha->claves.push_back(raiz->claves[1]); // Primera clave de la raíz original a la hoja izquierda
+	
+	hojaIzquierda->siguiente = hojaDerecha; // Enlazamos las hojas
+
+	nuevaRaiz->claves.push_back(raiz->claves[1]); // La clave de división se convierte en la clave de la nueva raíz
+	//la insercion de los hijos
+	nuevaRaiz->hijos.push_back(hojaIzquierda); // La hoja izquierda se convierte en el primer hijo de la nueva raíz
+	nuevaRaiz->hijos.push_back(hojaDerecha); // la hoja derecha se convierte en el segundo hijo de la nueva raíz
+
+	raiz = nuevaRaiz; // La nueva raíz se convierte en la raíz del árbol
+	// Implementar la lógica para dividir la raíz cuando se alcance el número máximo de claves
+}

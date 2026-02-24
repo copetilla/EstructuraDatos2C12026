@@ -1,5 +1,5 @@
 #pragma once
-#ifdef ARBOLNODOPLUS_H
+#ifndef ARBOLNODOPLUS_H
 #define ARBOLNODOPLUS_H
 
 #include "Nodoplus.h"
