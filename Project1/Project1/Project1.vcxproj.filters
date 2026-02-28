@@ -39,6 +39,12 @@
     <ClCompile Include="BTS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Nodoplus.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainplus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nodo.h">
@@ -48,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="arbolb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArbolNodoplus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

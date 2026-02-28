@@ -135,10 +135,13 @@
     <ClCompile Include="Estructura.cpp" />
     <ClCompile Include="LAboratorio2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainplus.cpp" />
+    <ClCompile Include="Nodoplus.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arbolb.h" />
     <ClInclude Include="ArbolBinario.h" />
+    <ClInclude Include="ArbolNodoplus.h" />
     <ClInclude Include="Nodo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
