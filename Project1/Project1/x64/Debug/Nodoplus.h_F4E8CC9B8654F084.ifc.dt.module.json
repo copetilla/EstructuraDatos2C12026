@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\Nodoplus.obj",
+            "outputs": [
+                "x64\\Debug\\Nodoplus.h_F4E8CC9B8654F084.ifc.dt.module.json",
+                "x64\\Debug\\Nodoplus.h_F4E8CC9B8654F084.ifc.dt.d.json",
+                "x64\\Debug\\Nodoplus.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Gabriel\\Documents\\GitHub\\EstructuraDatos2C12026\\Project1\\Project1\\Nodoplus.h",
+                    "source-path": "c:\\users\\gabriel\\documents\\github\\estructuradatos2c12026\\project1\\project1\\nodoplus.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\BST.obj",
+            "outputs": [
+                "x64\\Debug\\BST.h_3246FAEA8453EA3B.ifc.dt.module.json",
+                "x64\\Debug\\BST.h_3246FAEA8453EA3B.ifc.dt.d.json",
+                "x64\\Debug\\BST.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Gabriel\\Documents\\GitHub\\EstructuraDatos2C12026\\Project1\\Project1\\BST.h",
+                    "source-path": "c:\\users\\gabriel\\documents\\github\\estructuradatos2c12026\\project1\\project1\\bst.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
